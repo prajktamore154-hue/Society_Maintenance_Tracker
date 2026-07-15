@@ -1,0 +1,50 @@
+# System Design
+
+## Overview
+
+The Society Maintenance Tracker is a MERN-stack web application designed to streamline complaint management in residential societies. Residents can register, log in, submit maintenance complaints, upload supporting images, and monitor complaint progress. Administrators manage complaints through a centralized dashboard where they can assign maintenance staff, prioritize issues, update statuses, and publish society notices.
+
+## Architecture
+
+The application follows a client-server architecture.
+
+- Frontend: React + Vite
+- Backend: Node.js + Express
+- Database: MongoDB
+- Authentication: JWT
+- File Uploads: Multer
+
+## Workflow
+
+1. Resident logs in.
+2. Complaint is submitted.
+3. Complaint is stored in MongoDB.
+4. Admin reviews complaint.
+5. Admin assigns maintenance staff.
+6. Admin updates priority.
+7. Admin updates complaint status.
+8. Resident tracks progress and history.
+
+## Modules
+
+- Authentication
+- Complaint Management
+- Notice Management
+- Dashboard Analytics
+- Image Upload
+- Complaint History
+
+## Security
+
+- JWT Authentication
+- Protected Routes
+- Password Hashing
+- Role-based Authorization
+
+## Future Enhancements
+
+- Email Notifications
+- SMS Alerts
+- Mobile Application
+- Real-time Notifications
+- Analytics Dashboard
